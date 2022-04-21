@@ -5,7 +5,7 @@ const path = require('path');
 /*app.listen(3000,() =>
 console.log('servidor corriendo')
 );*/
-const publicPath = 'public';
+const publicPath = './public';
 app.use( express.static(publicPath));
 
 // Ruta raiz
